@@ -6,8 +6,6 @@ import numpy
 
 
 #Load Keywords 
-#Initial Set from Roget's Thesaurus and Urban Dictionary <-- This retrieved no tweets. Just using the word 'bathsalts' for now
-#What about doing both English and Spanish?
 keyword_filename = 'synonyms_bathsalts.txt'
 delimiter = ','
 keyword_file = open(keyword_filename)
@@ -26,7 +24,7 @@ def search_tweets(url):
     search = urllib.urlopen(url)
     return simplejson.loads(search.read())
 
-#----------------Using the twitter module, find NG's tweets--------------------------------
+#----------------Query Twitter using your private token--------------------------------
 private_key= '    Ip80obhVONbdbIBlEsXhIh8da2mTEtWbPb9QoZIA'
 private_token = 'SaSNZ7iVvOwtEhFSAblCShrnI8TARZcFKm61U8KEPc'
 public_key= 'JGZXNDxaF05qONatyWbG1Q'
