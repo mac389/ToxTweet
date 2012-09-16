@@ -3,8 +3,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 from cPickle import dump, load
 
+
+#--Formulary lists the "drugs" to search for on Twitter
+
 #formulary = ['cocaine','marijuana','bath salts','heroin','lsd','valium','ativan','ecstasy','ketamine']
 formulary = ['coffee','beer']
+
+
 graph_stats = []
 for count,drug in enumerate(formulary):
 	print 'Querying Twitter for ',drug,' and writing the results to an XLS file.'

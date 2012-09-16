@@ -1,0 +1,11 @@
+Python files for Toxicovigilance on Twitter
+
+What is it?
+------------
+
+ A collection of Python files, also listed on PyPI, as part of an ongoing effort to use Twitter for toxicology research. 
+
+How do I use it?
+-----------------
+
+ The easiest thing is to copy all of the files to someplace in your PYTHONPATH, like ~/bin. 

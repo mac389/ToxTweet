@@ -4,6 +4,8 @@ from nltk import * #Such a hack
 from simplejson import load
 from readabilitytests import ReadabilityTool
 
+#Attribution: ReadabilityTests comes from NTLKs Google Project page.
+
 formulary = ['cocaine','marijuana','bath salts','heroin','opium','lsd','valium','ativan','ecstasy','ketamine']
 
 def clean(tweet):
@@ -16,7 +18,6 @@ def getFK(text=text):
 	return grader.FleschKincaidGradeLevel()
 
 grade_level=[]
-#For FK any tweet will do
 for drug in formulary:
 	filename = "results_"+drug.replace(' ','_')+".txt"
 	with open(filename,'r') as f:
