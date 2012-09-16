@@ -1,0 +1,15 @@
+#Format: Drug YesMike-YesNick NoMike-YesNick YesMikeMike-NoNick NoMike-NoNick Pr(a) Pr(e) kappa
+
+Ativan	0	3	10	7	0.86	0.5	0.32
+
+Cocaine	6	9	1	497	.506	.24	.35
+
+Ketamine	1	0	2	9	.42	.1875	.27
+
+LSD		4	4	7	270	.487	.24	.325	
+	
+Marijuana	20	6	6	159	.563	.475	.189
+
+
+#Comment: Col-Row
+

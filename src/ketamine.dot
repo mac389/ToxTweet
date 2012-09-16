@@ -1,0 +1,9 @@
+strict digraph G{
+"@StokeyBoyN16" -> "bertie_94" [tweetid=240529897922113536];
+"@StokeyBoyN16" -> "casparcaspar" [tweetid=241175041008623616];
+"@librage" -> "sexxybeast1973" [tweetid=241194375034576896];
+"@anthonydimieri: @CharstepNYC" -> "CharstepNYC" [tweetid=239135089123028992];
+"@jdowdell" -> "schutzsmith" [tweetid=240559406255837185];
+"@ercowboy: @EMIMDoc @USEDCDN" -> "umanamd" [tweetid=240834718826893312];
+"@ercowboy: @EMIMDoc @USEDCDN" -> "EMIMDoc" [tweetid=240834612941692929]
+}

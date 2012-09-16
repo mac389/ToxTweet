@@ -1,0 +1,15 @@
+strict digraph G{
+"@OGYAYAA" -> "rbk2k" [tweetid=240660576043417600];
+"@CJJofNYC: @thewastefulgirl" -> "thewastefulgirl" [tweetid=240942358378717186];
+"@rbk2k" -> "rbk2k" [tweetid=240660576043417600];
+"@rbk2k" -> "OGYAYAA" [tweetid=240604849090224128];
+"@UnusuaIFacts" -> "mangolan" [tweetid=239817842994839552];
+"@meghanor" -> "Ashlybsmith" [tweetid=241368195297079297];
+"@JazzShaw" -> "northsideirish" [tweetid=240074427004506112];
+"@JazzShaw" -> "datwwt" [tweetid=240065967143665664];
+"@JazzShaw" -> "nicnictweettwee" [tweetid=240065855038296064];
+"@JazzShaw" -> "yellowdogdemjab" [tweetid=240070885711675392];
+"@JazzShaw" -> "penguinponders" [tweetid=240065051388702721];
+"@JazzShaw" -> "GenNerd" [tweetid=240065418390290432];
+"@deanarifpranata" -> "mangolan" [tweetid=239817842994839552]
+}
