@@ -9,3 +9,33 @@ How do I use it?
 -----------------
 
  The easiest thing is to copy all of the files to someplace in your PYTHONPATH, like ~/bin. 
+
+ RUN PYTHON MAIN.PY 
+
+ This module creates a twitteryQuery.py object for all drugs listed in the formulary. It can save the results in JSON or XLS. 
+
+
+What other Python Plugins do I need?
+_____________________________________
+
+ -Numpy/SciPy
+ -XLRD XLWT
+ -python-twitter (use pip install twitter not easy_install twitter)
+ -matplotlib
+ -simplejson
+ -networkx
+
+
+What do the files besides main.py do?
+______________________________________
+
+--->twitterQuery.py: main.py creates an instance of twitterQuery for each drug in the "formulary" that you are … querying Twitter for. 
+
+--->parser.py loads the JSON format results from querying twitter and formats them for NLP analysis by:
+ 1. Writing a reduplicated record of the tweets to an XLS file for human rating. (Change filename, which indicates the location of the JSON dump of the twitter query, as needed.) 
+ 2. Making a stemmed corpus to use for semantic analysis, contextual analysis or as input to a classifier. (Change the savename as needed.)
+
+--->loadTweets.py is a helper function to calculate the Fleisch-Kincaid grade level of a tweet. 
+
+---> medgraph.py draws a degree-rank plot with the social graph as an inset. 
+ATTRIBUTION: This is a modified version of a file from the matplotlib examples gallery.

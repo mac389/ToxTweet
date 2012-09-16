@@ -1,6 +1,6 @@
 #Calculate FleshKincaid from Tweets
 
-from nltk import * #Such a hack
+from nltk import * 
 from simplejson import load
 
 formulary = ['cocaine','marijuana','bath salts','heroin','opium','lsd','valium','ativan','ecstasy','ketamine']
